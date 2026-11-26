@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/horarios.css">
+  <link rel="stylesheet" href="../css/sitio.css">
+  <link rel="stylesheet" href="../css/editar-horarios.css">
+  <title>Editar horarios | Escuela Media N°12</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-brand">
+      <img src="../img/logo EES12 - Escudo.png" alt="Escudo de la Escuela Media N°12">
+      <h1>Escuela de Educación Secundaria Media N°12</h1>
+    </div>
+  </header>
+  <nav class="site-nav" aria-label="Navegación principal">
+    <a href="../index.html">Inicio</a>
+    <a href="./horarios.html">Ver horarios</a>
+  </nav>
+
+  <main class="contenedor">
+    <section class="titulo">
+      <span>ADMINISTRACIÓN</span>
+      <h1>Editar horarios escolares</h1>
+      <p>Ingresá con una cuenta autorizada para modificar los horarios publicados.</p>
+    </section>
+
+    <p class="schedule-editor-message" id="pageMessage" role="status" aria-live="polite">Verificando acceso...</p>
+
+    <section class="schedule-login" id="loginPanel" aria-labelledby="loginTitle" hidden>
+      <h2 id="loginTitle">Ingresar</h2>
+      <form id="loginForm">
+        <label for="username">Usuario</label>
+        <input id="username" name="username" type="text" autocomplete="username" maxlength="80" required>
+        <label for="password">Contraseña</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+        <p class="schedule-editor-error" id="loginError" role="alert" hidden></p>
+        <button class="schedule-editor-button primary" type="submit">Ingresar</button>
+      </form>
+    </section>
+
+    <section class="schedule-editor" id="editorPanel" aria-label="Editor de horarios" hidden>
+      <div class="schedule-editor-session">
+        <span id="signedInUser"></span>
+        <button class="schedule-editor-button" id="logoutButton" type="button">Cerrar sesión</button>
+      </div>
+
+      <div class="schedule-editor-toolbar">
+        <label for="courseSelect">Curso</label>
+        <select id="courseSelect"></select>
+        <button class="schedule-editor-button" id="addCourseButton" type="button">Agregar curso</button>
+        <button class="schedule-editor-button danger" id="removeCourseButton" type="button">Eliminar curso</button>
+      </div>
+
+      <label class="course-name-field" for="courseName">Nombre del curso</label>
+      <input id="courseName" type="text" maxlength="100" required>
+
+      <div class="schedule-editor-table-scroll">
+        <table class="schedule-editor-table">
+          <thead>
+            <tr>
+              <th scope="col">Horario</th>
+              <th scope="col">Lunes</th>
+              <th scope="col">Martes</th>
+              <th scope="col">Miércoles</th>
+              <th scope="col">Jueves</th>
+              <th scope="col">Viernes</th>
+              <th scope="col">Acción</th>
+            </tr>
+          </thead>
+          <tbody id="scheduleRows"></tbody>
+        </table>
+      </div>
+
+      <div class="schedule-editor-actions">
+        <button class="schedule-editor-button" id="addBlockButton" type="button">Agregar bloque horario</button>
+        <button class="schedule-editor-button primary" id="saveButton" type="button">Guardar y publicar cambios</button>
+      </div>
+    </section>
+
+    <div class="volver">
+      <a href="./horarios.html">← Volver a los horarios publicados</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <h2>Contacto</h2>
+      <p>Teléfonos: 291 439-4625 | 291 451-0260 | 291 455-0612</p>
+      <p>Correo: secundaria12bahiablanca@abc.gob.ar</p>
+      <p>Dirección: Sarmiento 1450, Bahía Blanca</p>
+    </div>
+  </footer>
+
+  <script src="../js/editar-horarios.js" defer></script>
+</body>
+</html>

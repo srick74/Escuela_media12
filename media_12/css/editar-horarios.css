@@ -1,0 +1,206 @@
+.schedule-editor-message,
+.schedule-editor,
+.schedule-login {
+  width: 100%;
+  margin: 0 auto 24px;
+}
+
+.schedule-editor-message {
+  max-width: 900px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #e8f1ff;
+  color: #173c79;
+}
+
+.schedule-editor-message[data-kind="error"] {
+  background: #fff0ef;
+  color: #9c2520;
+}
+
+.schedule-login,
+.schedule-editor {
+  max-width: 1100px;
+  padding: 24px;
+  border: 1px solid #dfe6f0;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 7px 25px rgba(18, 34, 102, .1);
+}
+
+.schedule-login {
+  max-width: 480px;
+}
+
+.schedule-login h2 {
+  margin: 0 0 18px;
+  color: #122266;
+  font-family: "Oswald", sans-serif;
+}
+
+.schedule-login form {
+  display: grid;
+  gap: 10px;
+}
+
+.schedule-login label,
+.course-name-field,
+.schedule-editor-toolbar label {
+  color: #122266;
+  font-weight: 600;
+}
+
+.schedule-login input,
+.schedule-editor-toolbar select,
+.course-name-field + input,
+.schedule-editor-table input {
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid #cbd6e2;
+  border-radius: 7px;
+  color: #172033;
+  font: inherit;
+}
+
+.schedule-editor-button {
+  min-height: 42px;
+  padding: 8px 14px;
+  border: 1px solid #b9c9d6;
+  border-radius: 7px;
+  background: #fff;
+  color: #173c59;
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.schedule-editor-button:hover:not(:disabled) {
+  background: #edf5f8;
+}
+
+.schedule-editor-button.primary {
+  border-color: #1450bd;
+  background: #1450bd;
+  color: #fff;
+}
+
+.schedule-editor-button.primary:hover:not(:disabled) {
+  background: #103f98;
+}
+
+.schedule-editor-button.danger {
+  border-color: #e2b9b6;
+  color: #9c2520;
+}
+
+.schedule-editor-button:disabled {
+  cursor: not-allowed;
+  opacity: .55;
+}
+
+.schedule-editor-session,
+.schedule-editor-toolbar,
+.schedule-editor-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.schedule-editor-session {
+  justify-content: space-between;
+  margin-bottom: 24px;
+  color: #526273;
+}
+
+.schedule-editor-toolbar {
+  margin-bottom: 18px;
+}
+
+.schedule-editor-toolbar select {
+  flex: 1 1 220px;
+}
+
+.course-name-field {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.course-name-field + input {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.schedule-editor-table-scroll {
+  overflow-x: auto;
+  margin-bottom: 18px;
+}
+
+.schedule-editor-table {
+  min-width: 1000px;
+}
+
+.schedule-editor-table th {
+  padding: 10px;
+  background: #12334d;
+  color: #fff;
+  text-align: center;
+}
+
+.schedule-editor-table td {
+  min-width: 130px;
+  padding: 8px;
+}
+
+.schedule-editor-table td:first-child {
+  min-width: 145px;
+}
+
+.schedule-editor-table td:last-child {
+  min-width: 95px;
+}
+
+.schedule-editor-table input {
+  width: 100%;
+}
+
+.schedule-editor-actions {
+  justify-content: space-between;
+}
+
+.schedule-editor-error {
+  margin: 0;
+  color: #9c2520;
+}
+
+.schedule-admin-link {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.schedule-admin-link a {
+  display: inline-block;
+  padding: 11px 18px;
+  border: 1px solid #b9c9d6;
+  border-radius: 8px;
+  background: #fff;
+  color: #173c59;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.schedule-admin-link a:hover {
+  background: #edf5f8;
+}
+
+@media (max-width: 640px) {
+  .schedule-editor,
+  .schedule-login {
+    padding: 18px 14px;
+  }
+
+  .schedule-editor-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

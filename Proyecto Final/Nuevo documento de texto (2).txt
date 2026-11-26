@@ -1,0 +1,11 @@
+usuario01	ed10a8a0dbb4801fbe3e
+usuario02	7ed3101c055c038c84c0
+usuario03	e5577123e83ff6ee2a9d
+usuario04	e32f16a04498d410429f
+usuario05	5cba427378bca67b305d
+usuario06	00155c60d68d94054684
+usuario07	4208dddec413e3b31b96
+usuario08	7bd064692f41013596c1
+usuario09	361c3f2dc763e42fbe19
+usuario10	7ce0d59bbb2b4fd336ea
+estos 10 usuarios tendran acceso

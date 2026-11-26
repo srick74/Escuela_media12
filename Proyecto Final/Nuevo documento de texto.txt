@@ -1,0 +1,40 @@
+CREATE DATABASE ESCUELAMEDIA12;
+USE ESCUELAMEDIA12;
+
+CREATE TABLE PERSONA (
+id_persona INT AUTO_INCREMENT PRIMARY KEY,
+dni int (50),
+nombre varchar (50),
+apellido varchar (50),
+tel int (50),
+mail varchar (50),
+direccion varchar (50),
+f_ingreso varchar (50)
+);
+
+CREATE TABLE PROFESOR (
+id_profesor int auto_increment primary key, 
+nombre varchar (50),
+apellido varchar (50),
+turno ENUM('mañana', 'tarde') NOT NULL,
+FOREIGN KEY (id_persona) references PERSONA(id_persona)
+);
+
+CREATE TABLE PRECEPTOR (
+id_preceptor int auto_increment primary key,
+nombre varchar (50),
+apellido varchar (50),
+turno ENUM('mañana', 'tarde') NOT NULL,
+foreign key (id_persona) references PERSONA(id_persona)
+);
+
+CREATE TABLE EQUIPO_DIRECTIVO (
+id_equipo int auto_increment primary key,
+usuario varchar (50),
+contraseña varchar (50),
+foreign key (id_cargo) references CARGO(id_cargo),
+foreign key (id_persona) references PERSONA(id_persona)
+);
+
+CREATE TABLE CARGO (
+id_cargo int auto_increment primary key,

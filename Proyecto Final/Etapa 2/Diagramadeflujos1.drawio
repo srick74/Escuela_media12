@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="ZWJL7zlOUz2Um68Htu2G">
+    <mxGraphModel dx="1414" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Usuario&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-15" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points" />
+            <mxPoint x="170" y="89.5" as="sourcePoint" />
+            <mxPoint x="270" y="89.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Horarios" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-20" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points" />
+            <mxPoint x="339.5" y="130" as="sourcePoint" />
+            <mxPoint x="339.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-21" parent="1" style="whiteSpace=wrap;html=1;" value="Datos" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-23" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points" />
+            <mxPoint x="339.5" y="280" as="sourcePoint" />
+            <mxPoint x="339.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-24" parent="1" style="whiteSpace=wrap;html=1;" value="Confirmacion" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-26" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="400" />
+            </Array>
+            <mxPoint x="266" y="399.5" as="sourcePoint" />
+            <mxPoint x="100" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-27" parent="1" style="whiteSpace=wrap;html=1;" value="BASE DE DATOS HORARIOS" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-28" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points" />
+            <mxPoint x="410" y="239.5" as="sourcePoint" />
+            <mxPoint x="490" y="239.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-29" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="90" />
+            </Array>
+            <mxPoint x="414" y="89.5" as="sourcePoint" />
+            <mxPoint x="560" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdUKlgV6y66O3kDn9UO2-30" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="400" />
+            </Array>
+            <mxPoint x="414" y="399.5" as="sourcePoint" />
+            <mxPoint x="560" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
